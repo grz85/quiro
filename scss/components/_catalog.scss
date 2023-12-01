@@ -1,0 +1,59 @@
+.catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160rem;
+
+    &__title {
+        font: var(--Heading-2);
+        text-align: center;
+        max-width: 840rem;
+    }
+
+    &__desc {
+        font:var(--Paragraph);
+        text-align: center;
+        max-width: 840rem;
+        margin-top: 24rem;
+    }
+
+    &__card-wrapper {
+        display: grid;
+        gap: 32rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 80rem;
+    }
+
+    &__card {
+        background: var(--c-terciary);
+        border-radius: 20rem;
+        padding: 40rem;
+    }
+
+    &__card-info {
+        display: grid;
+        grid-template-columns: 63ram 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "card-userpic card-name"
+        "card-userpic card-position";
+
+    }
+
+    &__card-userpic{
+
+    }
+
+
+    &__card-name {
+    }
+
+    &__card-position {
+    }
+
+    &__card-desc {
+    }
+}
+.btn {
+}
